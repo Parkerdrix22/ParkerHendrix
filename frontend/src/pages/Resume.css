@@ -1,0 +1,27 @@
+.resume-header {
+  width: 100%;
+  background-color: black;
+  padding: 2rem 0;            /* space above/below text */
+  display: flex;
+  justify-content: center;    /* center horizontally */
+  align-items: center;        /* center vertically */
+  position: relative;         /* stays at top naturally */
+}
+
+/* Title inside header */
+.resume-header p {
+  font-family: 'DM Serif Display', serif;
+  font-size: 4vw;
+  font-weight: 400;
+  letter-spacing: 1vw;
+  color: white;
+  margin: 0;                  /* remove default spacing */
+  text-transform: uppercase;  /* make it ALL CAPS if you want */
+}
+
+.resume-pdf-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
